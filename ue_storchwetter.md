@@ -42,7 +42,7 @@ Denkt daran **DEN PFAD ZU ÄNDERN!** Nicht jeder PC hat z.B. den Laufwerksbuchst
 Achtung KEINEN Backslash(\) am Ende des Pfades
 
 ```{r}
-setwd("d:/TUB/Lehre/SoSe14/GP_OEKUP_OP_LA_Stadtklima_Berlin/R/data_r/") 
+setwd("C:/Users/Marianne/Desktop/Klimaprojekt/training") 
 ```
 
 ```{r}
@@ -134,7 +134,6 @@ Variablentypen! (wichtig!)
 ```{r}
 str(wetter)
 ```
-
 Umformatieren der Daten fuer besseres Handling 
 
 Namen der Spalten ändern für bessere Handhabbarkeit? 'names(wetter)' zeigt die derzeitigen Namen, damit wir keine Probleme mit Groß- und Kleinschreibung bekommen, wird alles klein geschrieben der folgenede Befehl wird die names(wetter) überschreiben!
